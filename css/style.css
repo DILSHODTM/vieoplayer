@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cointainer{
+    display: flex;
+    margin: 40px 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sitebar{
+    position: fixed;
+     width: 200px;
+    text-transform: uppercase;
+    list-style-type: none;
+    top: 15px;
+
+
+
+
+
+}
+.sitebar__li{
+    margin:40px 0px;
+ 
+}
+.nav{ 
+    background-color:rgb(255, 255, 255);
+    width: 1560px;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: 5;
+}
+
+.nav__ul{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.search{
+    border-radius: 50px;
+    width: 600px;
+    height: 30px;
+}
+.search__btn{
+    width: 80px;
+    height: 30px;
+}
+
+
+
+.sec_1{
+    display: flex;
+    align-items: center;
+    padding: 60px 0px;
+}
+.arrovs{
+    position: relative;
+   left: 900px;
+}
+.sec_2{
+    margin-top: 20px;
+    gap: 50px;
+    display: flex;
+    
+}
+
+.sec_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+    padding: 30px 0;
+
+}
+.covers{
+    border-radius:10px;
+    width: 400px;
+    height: 200px;
+
+}
+.black{
+    border-radius: 50%;
+
+}
+.arrovs2{
+    position: relative;
+   left: 1006px;
+}
+.arrovs3{
+    position: relative;
+   left: 920px;
+}
+
+.sec_2list{
+
+}
+.drop{
+    text-decoration: none;
+    color:red;
+}
+.drop:hover{
+    background-color: silver;
+}
+.asa{
+    padding:50px 100px;
+}
+.hidden{
+
+}
+
+
+
+  
+ 
+.dropdown{
+    color: rgb(219, 24, 24);
+    background: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+ .drop {
+    color: black;
+  }
+  
+  .dropdown:hover,
+  .dropdown:focus-within {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  
+  
+  .sitebar{
+    background: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 10px;
+    display: none;
+  }
+  
+  .dropdown:hover > .sitebar,
+  .dropdown:focus-within > .sitebar,
+  .sitebar:hover,
+  .sitebar:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+ .sitebar__li{
+    clear: both;
+    width: 100%;
+  }
+  .drp{
+    width: 34px;
+  }
